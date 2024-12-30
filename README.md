@@ -61,7 +61,7 @@ auto-updates as you edit the file.
 
 ## Live Demo
 
-[View Live Demo](https://your-live-demo-link.com)
+[View Live Demo](https://products-gallery-elevate-task.vercel.app/)
 
 ---
 
