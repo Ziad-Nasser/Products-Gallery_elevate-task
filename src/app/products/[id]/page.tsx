@@ -34,16 +34,15 @@ export default function ProductPage() {
         Back to Products
       </Link>
       <div className="grid md:grid-cols-2 gap-8">
-        {product && (
-          <div className="aspect-w-1 aspect-h-1 bg-gray-100 rounded-lg overflow-hidden">
-            <Image
-              src={product.image}
-              alt={product.title}
-              width={500}
-              height={500}
-            />
-          </div>
-        )}
+        <div className="aspect-w-1 aspect-h-1 bg-gray-100 rounded-lg overflow-hidden">
+          <Image
+            src={product?.image}
+            alt={product?.title}
+            width={500}
+            height={500}
+            className="object-contain w-full h-full"
+          />
+        </div>
         <div>
           <h1 className="text-3xl font-bold mb-4">{product?.title}</h1>
           <p className="text-2xl font-semibold text-blue-600 mb-4">
