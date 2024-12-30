@@ -1,9 +1,9 @@
-# Products_elevate-task
+# Products Gallery
 
 ## Project Description
 
-Products_elevate-task is a modern, responsive web application built with
-Next.js. It showcases a collection of products fetched from the Fake Store API,
+Products Gallery is a modern, responsive web application built with Next.js It
+showcases a collection of products fetched from the Fake Store API,
 demonstrating best practices in server-side rendering, client-side
 interactivity, and responsive design.
 
@@ -29,7 +29,7 @@ Make sure you have Node.js installed on your machine. You can download it
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/products-gallery.git
+   git clone https://github.com/Ziad-Nasser/products-gallery.git
    cd products-gallery
    ```
 
@@ -54,6 +54,8 @@ Make sure you have Node.js installed on your machine. You can download it
 4. **Open the application:** Open [http://localhost:3000](http://localhost:3000)
    in your browser to see the application running.
 
+You can start editing the page by modifying `app/page.tsx`. The page
+auto-updates as you edit the file.
 
 ---
 
